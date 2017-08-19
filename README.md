@@ -47,9 +47,9 @@ to
 /* GET users listing. */
 router.get('/', function(req, res, next) {
   const users = [
-  	{id: 1, fname: 'this', lname: 'guy'},
-  	{id: 2, fname: 'another', lname: 'guy'},
-  	{id: 2, fname: 'some', lname: 'guy'},
+    {id: 1, fname: 'this', lname: 'guy'},
+    {id: 2, fname: 'another', lname: 'guy'},
+    {id: 2, fname: 'some', lname: 'guy'},
   ]
   res.send(users);
 });
@@ -135,13 +135,15 @@ export default App;
 ```
 What we are doing here is sending a request to route /users and updaing our state with the response.
 Open 2 tabs in terminal. In tab 1 we will start our server (express) and in tab 2 we will start a dev server for our react app.
+```
 *Tab 1
-**Navigate to myapp/
-**npm start
+Navigate to myapp/
+npm start
 
 *Tab 2
-**Navigate to myapp/client
-**npm start
+Navigate to myapp/client
+npm start
+```
 
 Open `localhost:3000/`
 You will see this : https://gyazo.com/d7c13eb902ee3fadde06c390f0ab6b57
