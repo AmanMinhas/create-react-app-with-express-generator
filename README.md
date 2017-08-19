@@ -16,8 +16,8 @@ You can check if create-react-app or express-generator has been installed global
 `npm list -g --depth=0`
 
 If you have not, then lets install them
-npm i -g create-react-app
-npm i -g express-generator
+* `npm i -g create-react-app`
+* `npm i -g express-generator`
 
 ## Let's start then
 
