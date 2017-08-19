@@ -19,7 +19,7 @@ If you have not, then lets install them
 npm i -g create-react-app
 npm i -g express-generator
 
-Let's start then
+## Let's start then
 
 express myapp
 cd myapp
@@ -78,7 +78,7 @@ Our client is ready, we can check localhost:3000/ to find our bootstraped react 
 https://gyazo.com/1eec9982882277108076da2e829c010b
 
 Now our express app runs at port 3001 and react app runs at port 3000. We want to be able to send api requests to port 3001. This is where proxy configuration comes in.
-## Proxy Config
+### Proxy Config
 Open your client/package.json. Make sure its the package.json in client directory and not myapp/package.json, and add the following line
 {
   "scripts": {
@@ -144,5 +144,5 @@ You will see this : https://gyazo.com/d7c13eb902ee3fadde06c390f0ab6b57
 
 It does look ugly but our react app is now connected to our express server. Yay! It's at your mercy now to do anything with it.
 
-
+You can find the code @ https://github.com/AmanMinhas/create-react-app-with-express-generator
 
