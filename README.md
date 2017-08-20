@@ -62,7 +62,7 @@ from
 to 
 `"start": "PORT=3001 node ./bin/www"`
 
-What we are doing is, we are starting our server @ port 3001 instead of 3000. We will get to why we are doing so later. Better way to do this would be to use process.env, but for the sake of this turotial, this will do. You can check `localhost:3001/` and `localhost:3001/` to check if all is fine.
+What we are doing is, we are starting our server @ port 3001 instead of 3000. We will get to why we are doing so later. Better way to do this would be to use process.env, but for the sake of this turotial, this will do. You can check `localhost:3001/` and `localhost:3001/users` to check if all is fine.
 
 Let's commad+C and shut down our server for now.
 Our server is ready! Our next step is to tie it up with creat-react-app. We are just going to use our express server to create our api end points.
