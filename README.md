@@ -70,7 +70,7 @@ Our server is ready! Our next step is to tie it up with creat-react-app. We are 
 In myapp/ run 
 `create-react-app client`
 
-This will create a new directory client. This is where all your react code it. Also notice that client directory has it's own package.json. Your project as it stands has 2 package.json files, one in myapp/ and another in myapp/client/
+This will create a new directory client. This is where all your react code is. Also notice that client directory has it's own package.json. Your project as it stands has 2 package.json files, one in myapp/ and another in myapp/client/
 
 * `cd client`
 * `npm start`
