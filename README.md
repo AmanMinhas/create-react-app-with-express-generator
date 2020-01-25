@@ -1,4 +1,4 @@
-# Combine create-react-app with express-generator
+# [OUTDATED] Combine create-react-app with express-generator
 
 ## What is create-react-app & express-generator ?
 
